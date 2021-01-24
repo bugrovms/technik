@@ -420,10 +420,7 @@ body {
 .footer__link--form {
     text-decoration: none;
     display: flex;
-}
-
-.footer__link-img {
-    display: flex;
+    justify-content: flex-end;
 }
 
 .footer__author-img {
