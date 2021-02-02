@@ -1,322 +1,303 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
-  </head>
-  <body>
-    <header class="header">
-      <div class="header__wrap container">
-        <div class="header__item header__item--left">
-          <a class="header__link" href="#"
-            ><img class="header__logo" src="img/logos.png" alt="logos"
-          /></a>
-          <p class="header__info">
-            УСЛУГИ СТРОИТЕЛЬНОЙ<br />
-            ТЕХНИКИ
-          </p>
-        </div>
-        <div class="header__item header__item--right">
-          <p class="header__address">
-            г. Екатеринбург, ул.Маяковского, 25<br />
-            +7 (343) 222-20-17
-          </p>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__wrap container">
+      <div class="header__item header__item--left">
+        <a class="header__link" href="#"><img class="header__logo" src="img/logos.png" alt="logos" /></a>
+        <p class="header__info">
+          УСЛУГИ СТРОИТЕЛЬНОЙ<br />
+          ТЕХНИКИ
+        </p>
+      </div>
+      <div class="header__item header__item--right">
+        <p class="header__address">
+          г. Екатеринбург, ул.Маяковского, 25<br />
+          +7 (343) 222-20-17
+        </p>
+      </div>
+    </div>
+  </header>
+  <div class="section-menu">
+    <div class="section-menu__wrap container">
+      <div class="section-menu__logo">
+        <img class="section-menu__img" src="img/logos3.png" alt="logos3" />
+      </div>
+      <nav class="nav">
+        <ol class="nav__list">
+          <li class="nav__item">
+            <a class="nav__link nav__link--active" href="#">КАТАЛОГ ТЕХНИКИ</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">УСЛУГИ</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">ВЫПОЛНЕННЫЕ РАБОТЫ</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">О КОМПАНИИ</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">КОНТАКТЫ</a>
+          </li>
+        </ol>
+      </nav>
+    </div>
+  </div>
+  <section class="section-slider">
+    <div class="swiper-container">
+      <div class="swiper-wrapper section-slider__wrapper">
+        <img class="swiper-slide section-slider__img" src="img/slider.png" alt="slider_photo-1" />
+        <img class="swiper-slide section-slider__img" src="img/slider.png" alt="slider_photo-2" />
+        <img class="swiper-slide section-slider__img" src="img/slider.png" alt="slider_photo-3" />
+      </div>
+
+
+      <div class="section-slider__wrap container">
+        <div class="section-slider__arrow-box">
+          <button type="button" class="section-slider__arrow section-slider__left">
+            <img class="section-slider__arrow-img" src="img/left.png" alt="стрелка слайдера влево" />
+          </button>
+
+          <button type="button" class="section-slider__arrow section-slider__right">
+            <img class="section-slider__arrow-img section-slider__arrow-img--right" src="img/left.png"
+              alt="стрелка слайдера вправо" />
+          </button>
         </div>
       </div>
-    </header>
-    <div class="section-menu">
-      <div class="section-menu__wrap container">
-        <div class="section-menu__logo">
-          <img class="section-menu__img" src="img/logos3.png" alt="logos3" />
+
+      <div class="slider__radio">
+        <button type="button" class="slider__radio-item slider__radio-item--active"></button>
+        <button type="button" class="slider__radio-item"></button>
+        <button type="button" class="slider__radio-item"></button>
+      </div>
+    </div>
+  </section>
+
+  <div class="bread-crumbs">
+    <div class="bread-crumbs__wrap container">
+      <div class="crumbs">
+        <ul class="crumbs__list">
+          <li class="crumbs__item">
+            <a href="#" class="crumbs__link">Главная</a>
+          </li>
+          <li class="crumbs__item">
+            <a href="#" class="crumbs__link">Каталог</a>
+          </li>
+          <li class="crumbs__item crumbs__item--active">Название товара</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="machine-feature">
+    <div class="machine-feature__wrap container">
+      <div class="machine-feature__item">
+        <div class="machine-feature__photo">
+          <img src="img/tractor.png" alt="tractor" class="machine-feature__img" />
         </div>
-        <nav class="nav">
-          <ol class="nav__list">
-            <li class="nav__item">
-              <a class="nav__link nav__link--active" href="#"
-                >КАТАЛОГ ТЕХНИКИ</a
-              >
-            </li>
-            <li class="nav__item">
-              <a class="nav__link" href="#">УСЛУГИ</a>
-            </li>
-            <li class="nav__item">
-              <a class="nav__link" href="#">ВЫПОЛНЕННЫЕ РАБОТЫ</a>
-            </li>
-            <li class="nav__item">
-              <a class="nav__link" href="#">О КОМПАНИИ</a>
-            </li>
-            <li class="nav__item">
-              <a class="nav__link" href="#">КОНТАКТЫ</a>
-            </li>
-          </ol>
+        <div class="machine-feature__info">
+          <h2 class="machine-feature__title">JCB 4CX Super</h2>
+          <div class="accordions">
+            <div class="accordion">
+              <button type="button" class="accordion__title js-toggle">
+                Характеристики
+                <img class="accordion__title-img" src="img/strelkadown.png" alt="" />
+              </button>
+
+              <div class="accordion__list js-toggled">
+                <label class="accordion__checkbox">
+                  <input type="checkbox" class="accordion__checkbox-hidden" hidden />
+                  <span class="accordion__checkox-pseudo"></span>
+                  <span class="accordion__list-name">Характеристика 1</span>
+                </label>
+                <label class="accordion__checkbox">
+                  <input type="checkbox" class="accordion__checkbox-hidden" hidden />
+                  <span class="accordion__checkox-pseudo"></span>
+                  <span class="accordion__list-name">Характеристика 2</span>
+                </label>
+                <label class="accordion__checkbox">
+                  <input type="checkbox" class="accordion__checkbox-hidden" hidden />
+                  <span class="accordion__checkox-pseudo"></span>
+                  <span class="accordion__list-name">Характеристика 3</span>
+                </label>
+              </div>
+            </div>
+            <div class="accordion">
+              <button class="accordion__title">
+                Информация
+                <img class="accordion__title-img" src="img/strelkadown.png" alt="" />
+              </button>
+              <div class="accordion__list">
+                <label class="accordion__checkbox">
+                  <input type="checkbox" class="accordion__checkbox-hidden" hidden />
+                  <span class="accordion__checkox-pseudo"></span>
+                  <span class="accordion__list-name">Характеристика 1</span>
+                </label>
+                <label class="accordion__checkbox">
+                  <input type="checkbox" class="accordion__checkbox-hidden" hidden />
+                  <span class="accordion__checkox-pseudo"></span>
+                  <span class="accordion__list-name">Характеристика 2</span>
+                </label>
+                <label class="accordion__checkbox">
+                  <input type="checkbox" class="accordion__checkbox-hidden" hidden />
+                  <span class="accordion__checkox-pseudo"></span>
+                  <span class="accordion__list-name">Характеристика 3</span>
+                </label>
+              </div>
+            </div>
+          </div>
+          <span class="machine-feature__price">125.000 Р.</span>
+          <button type="button" class="button button--primary">
+            ЗАКАЗАТЬ
+          </button>
+        </div>
+      </div>
+      <hr class="line" />
+      <h2 class="machine-services">УСЛУГИ</h2>
+    </div>
+  </div>
+  <section class="services">
+    <div class="services-wrap container">
+      <div class="services__container">
+        <div class="services__list">
+          <div class="services__item">
+            <img src="img/service_pic.png" alt="" class="services-wrap__img" />
+            <div class="services__about">
+              <h2 class="services__name">ЗАСЫПКА ТРАНШЕЙ</h2>
+              <p class="services__about-info">
+                Нашей компанией осуществляется засыпка траншей в
+                Екатеринбурге, востребованная предприятиями и частными лицами.
+              </p>
+            </div>
+          </div>
+          <div class="services__item">
+            <img src="img/service_pic.png" alt="" class="services-wrap__img" />
+            <div class="services__about">
+              <h2 class="services__name">ВЫВОЗ МУСОРА</h2>
+              <p class="services__about-info">
+                Вывоз мусора — составляющая деятельности производств и бытовых
+                предприятий.
+              </p>
+            </div>
+          </div>
+          <div class="services__item">
+            <img src="img/service_pic.png" alt="" class="services-wrap__img" />
+            <div class="services__about">
+              <h2 class="services__name">ДОСТАВКА</h2>
+              <p class="services__about-info">
+                Отсев образуется после разработки твердых горных пород и
+                является востребованным материалом в строительстве.
+              </p>
+            </div>
+          </div>
+          <div class="services__item">
+            <img src="img/service_pic.png" alt="" class="services-wrap__img" />
+            <div class="services__about">
+              <h2 class="services__name">ПОДЪЕМ ГРУЗОВ</h2>
+              <p class="services__about-info">
+                Выполнение широкого спектра высотных операций сложно
+                представить без специализированной техники.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="task">
+    <div class="task__wrap container">
+      <div class="task__item">
+        <h2 class="task__title">ЗАГОЛОВОК</h2>
+        <ol class="task__list">
+          <li class="task__list-item">
+            Задача 1
+            <button class="task__button">
+              <img src="img/edit.png" alt="" />
+            </button>
+            <button class="task__button">
+              <img src="img/cancel.png" alt="" />
+            </button>
+          </li>
+          <li class="task__list-item">
+            Задача 2
+            <button class="task__button">
+              <img src="img/edit.png" alt="" />
+            </button>
+            <button class="task__button">
+              <img src="img/cancel.png" alt="" />
+            </button>
+          </li>
+        </ol>
+        <input class="task__name" type="text" />
+        <button class="task__button">
+          <img src="img/apply.png" alt="" />
+        </button>
+        <button class="task__button">
+          <img src="img/cancel.png" alt="" />
+        </button>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="footer__wrap container">
+      <div class="footer__item">
+        <a class="footer__link" href="#"><img class="footer__logo" src="img/footer_logo.png" alt="logos" /></a>
+        <nav class="footer-nav">
+          <div class="footer-nav__list">
+            <li class="footer-nav__link footer-nav__link--active">Главная</li>
+            <li class="footer-nav__link">Каталог техники</li>
+            <li class="footer-nav__link">Услуги</li>
+            <li class="footer-nav__link">Выполненные работы</li>
+            <li class="footer-nav__link">О компании</li>
+            <li class="footer-nav__link">Контакты</li>
+          </div>
         </nav>
       </div>
-    </div>
-    <section class="section-slider">
-      <img class="section-slider__img" src="img/slider.png" alt="slider_photo"/>
-      <div class="section-slider__wrap container">
-        <img class="section-slider__left" src="img/left.png" alt="left" />
-        <img class="section-slider__right" src="img/right.png" alt="right" />
-        <img class="section-slider__radio" src="img/radio.png" alt="radio" />
+      <div class="footer__item-right">
+        <p class="footer__author">© Aйтекс start 2016</p>
+        <a class="footer__link footer__link--form" href="#">
+          <img class="footer__author-img" src="img/footer_img.png" alt="" />
+          <span class="footer__author-link">itexstart.ru</span>
+        </a>
       </div>
-    </section>
+    </div>
+  </footer>
 
-    <div class="bread-crumbs">
-      <div class="bread-crumbs__wrap container">
-        <div class="crumbs">
-          <ul class="crumbs__list">
-            <li class="crumbs__item">
-              <a href="#" class="crumbs__link">Главная</a>
-            </li>
-            <li class="crumbs__item">
-              <a href="#" class="crumbs__link">Каталог</a>
-            </li>
-            <li class="crumbs__item crumbs__item--active">Название товара</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="machine-feature">
-      <div class="machine-feature__wrap container">
-        <div class="machine-feature__item">
-          <div class="machine-feature__photo">
-            <img
-              src="img/tractor.png"
-              alt="tractor"
-              class="machine-feature__img"
-            />
-          </div>
-          <div class="machine-feature__info">
-            <h2 class="machine-feature__title">JCB 4CX Super</h2>
-            <div class="accordions">
-              <div class="accordion">
-                <button type="button" class="accordion__title js-toggle">
-                  Характеристики
-                  <img
-                    class="accordion__title-img"
-                    src="img/strelkadown.png"
-                    alt=""
-                  />
-                </button>
 
-                <div class="accordion__list js-toggled">
-                  <label class="accordion__checkbox">
-                    <input
-                      type="checkbox"
-                      class="accordion__checkbox-hidden"
-                      hidden
-                    />
-                    <span class="accordion__checkox-pseudo"></span>
-                    <span class="accordion__list-name">Характеристика 1</span>
-                  </label>
-                  <label class="accordion__checkbox">
-                    <input
-                      type="checkbox"
-                      class="accordion__checkbox-hidden"
-                      hidden
-                    />
-                    <span class="accordion__checkox-pseudo"></span>
-                    <span class="accordion__list-name">Характеристика 2</span>
-                  </label>
-                  <label class="accordion__checkbox">
-                    <input
-                      type="checkbox"
-                      class="accordion__checkbox-hidden"
-                      hidden
-                    />
-                    <span class="accordion__checkox-pseudo"></span>
-                    <span class="accordion__list-name">Характеристика 3</span>
-                  </label>
-                </div>
-              </div>
-              <div class="accordion">
-                <button class="accordion__title">
-                  Информация
-                  <img
-                  class="accordion__title-img"
-                  src="img/strelkadown.png"
-                  alt=""
-                />
-                </button>
-                <div class="accordion__list">
-                  <label class="accordion__checkbox">
-                    <input
-                      type="checkbox"
-                      class="accordion__checkbox-hidden"
-                      hidden
-                    />
-                    <span class="accordion__checkox-pseudo"></span>
-                    <span class="accordion__list-name">Характеристика 1</span>
-                  </label>
-                  <label class="accordion__checkbox">
-                    <input
-                      type="checkbox"
-                      class="accordion__checkbox-hidden"
-                      hidden
-                    />
-                    <span class="accordion__checkox-pseudo"></span>
-                    <span class="accordion__list-name">Характеристика 2</span>
-                  </label>
-                  <label class="accordion__checkbox">
-                    <input
-                      type="checkbox"
-                      class="accordion__checkbox-hidden"
-                      hidden
-                    />
-                    <span class="accordion__checkox-pseudo"></span>
-                    <span class="accordion__list-name">Характеристика 3</span>
-                  </label>
-                </div>
-              </div>
-            </div>
-            <span class="machine-feature__price">125.000 Р.</span>
-            <button type="button" class="button button--primary">
-              ЗАКАЗАТЬ
-            </button>
-          </div>
-        </div>
-        <hr class="line" />
-        <h2 class="machine-services">УСЛУГИ</h2>
-      </div>
-    </div>
-    <section class="services">
-      <div class="services-wrap container">
-        <div class="services__container">
-          <div class="services__list">
-            <div class="services__item">
-              <img
-                src="img/service_pic.png"
-                alt=""
-                class="services-wrap__img"
-              />
-              <div class="services__about">
-                <h2 class="services__name">ЗАСЫПКА ТРАНШЕЙ</h2>
-                <p class="services__about-info">
-                  Нашей компанией осуществляется засыпка траншей в
-                  Екатеринбурге, востребованная предприятиями и частными лицами.
-                </p>
-              </div>
-            </div>
-            <div class="services__item">
-              <img
-                src="img/service_pic.png"
-                alt=""
-                class="services-wrap__img"
-              />
-              <div class="services__about">
-                <h2 class="services__name">ВЫВОЗ МУСОРА</h2>
-                <p class="services__about-info">
-                  Вывоз мусора — составляющая деятельности производств и бытовых
-                  предприятий.
-                </p>
-              </div>
-            </div>
-            <div class="services__item">
-              <img
-                src="img/service_pic.png"
-                alt=""
-                class="services-wrap__img"
-              />
-              <div class="services__about">
-                <h2 class="services__name">ДОСТАВКА</h2>
-                <p class="services__about-info">
-                  Отсев образуется после разработки твердых горных пород и
-                  является востребованным материалом в строительстве.
-                </p>
-              </div>
-            </div>
-            <div class="services__item">
-              <img
-                src="img/service_pic.png"
-                alt=""
-                class="services-wrap__img"
-              />
-              <div class="services__about">
-                <h2 class="services__name">ПОДЪЕМ ГРУЗОВ</h2>
-                <p class="services__about-info">
-                  Выполнение широкого спектра высотных операций сложно
-                  представить без специализированной техники.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="task">
-      <div class="task__wrap container">
-        <div class="task__item">
-          <h2 class="task__title">ЗАГОЛОВОК</h2>
-          <ol class="task__list">
-            <li class="task__list-item">
-              Задача 1
-              <button class="task__button">
-                <img src="img/edit.png" alt="" />
-              </button>
-              <button class="task__button">
-                <img src="img/cancel.png" alt="" />
-              </button>
-            </li>
-            <li class="task__list-item">
-              Задача 2
-              <button class="task__button">
-                <img src="img/edit.png" alt="" />
-              </button>
-              <button class="task__button">
-                <img src="img/cancel.png" alt="" />
-              </button>
-            </li>
-          </ol>
-          <input class="task__name" type="text" />
-          <button class="task__button">
-            <img src="img/edit.png" alt="" />
-          </button>
-          <button class="task__button">
-            <img src="img/cancel.png" alt="" />
-          </button>
-        </div>
-      </div>
-    </section>
-    <footer class="footer">
-      <div class="footer__wrap container">
-        <div class="footer__item">
-          <a class="footer__link" href="#"
-            ><img class="footer__logo" src="img/footer_logo.png" alt="logos"
-          /></a>
-          <nav class="footer-nav">
-            <div class="footer-nav__list">
-              <li class="footer-nav__link footer-nav__link--active">Главная</li>
-              <li class="footer-nav__link">Каталог техники</li>
-              <li class="footer-nav__link">Услуги</li>
-              <li class="footer-nav__link">Выполненные работы</li>
-              <li class="footer-nav__link">О компании</li>
-              <li class="footer-nav__link">Контакты</li>
-            </div>
-          </nav>
-        </div>
-        <div class="footer__item-right">
-          <p class="footer__author">© Aйтекс start 2016</p>
-          <a class="footer__link footer__link--form" href="#">
-            <img class="footer__author-img" src="img/footer_img.png" alt="" />
-            <span class="footer__author-link">itexstart.ru</span>
-          </a>
-        </div>
-      </div>
-    </footer>
-    <script>
-      let toggle = document.querySelector(".js-toggle");
-      let toggled = document.querySelector(".js-toggled");
-      toggle.addEventListener("click", () => {
-        toggled.classList.toggle("accordion__list--active");
-        toggle.classList.toggle("accordion__title--active");
-      });
-    </script>
-  </body>
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      navigation: {
+        nextEl: '.section-slider__right',
+        prevEl: '.section-slider__left',
+      },
+      pagination: {
+        el: '.slider__radio',
+        bulletActiveClass: 'slider__radio-item--active',
+        bulletClass: 'slider__radio-item',
+        clickable: true
+      }
+    });
+
+
+    let toggle = document.querySelector(".js-toggle");
+    let toggled = document.querySelector(".js-toggled");
+    toggle.addEventListener("click", () => {
+      toggled.classList.toggle("accordion__list--active");
+      toggle.classList.toggle("accordion__title--active");
+    });
+  </script>
+</body>
+
 </html>
