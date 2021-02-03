@@ -74,13 +74,14 @@
               alt="стрелка слайдера вправо" />
           </button>
         </div>
+        <div class="slider__radio">
+          <button type="button" class="slider__radio-item slider__radio-item--active"></button>
+          <button type="button" class="slider__radio-item"></button>
+          <button type="button" class="slider__radio-item"></button>
+        </div>
       </div>
 
-      <div class="slider__radio">
-        <button type="button" class="slider__radio-item slider__radio-item--active"></button>
-        <button type="button" class="slider__radio-item"></button>
-        <button type="button" class="slider__radio-item"></button>
-      </div>
+      
     </div>
   </section>
 
@@ -220,8 +221,8 @@
         <h2 class="task__title">ЗАГОЛОВОК</h2>
         <ol class="task__list">
           <li class="task__list-item">
-            Задача 1
             <div class="task__list-container">
+              Задача 1
               <button class="task__button">
                 <img src="img/edit.png" alt="" />
               </button>
@@ -231,8 +232,8 @@
             </div>
           </li>
           <li class="task__list-item">
-            Задача 2
             <div class="task__list-container">
+              Задача 2
               <button class="task__button">
               <img src="img/edit.png" alt="" />
             </button>
@@ -242,13 +243,18 @@
             </div>
           </li>
         </ol>
-        <input class="task__name" type="text" />
-        <button class="task__button">
-          <img src="img/apply.png" alt="" />
-        </button>
-        <button class="task__button">
-          <img src="img/cancel.png" alt="" />
-        </button>
+        <div class="task__input">
+            <input class="task__field" type="text" />
+            <div class="task__buttons">
+              <button class="task__button">
+                <img src="img/apply.png" alt="" />
+              </button>
+              <button class="task__button">
+                <img src="img/cancel.png" alt="" />
+              </button>
+            </div>
+        </div>
+        
       </div>
     </div>
   </section>

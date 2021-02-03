@@ -226,7 +226,7 @@ body {
 }
 
 .machine-feature {
-
+    margin-bottom: 50px;
 }
 
 .machine-feature__wrap {
@@ -269,8 +269,10 @@ body {
 }
 
 .machine-feature__price {
-    font-style: 24px;
     font-weight: bold;
+    font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    line-height: 24px;
     margin-right: 67px;
 }
 
@@ -327,10 +329,13 @@ body {
 .machine-services {
     text-align: center;
     font-weight: bold;
+    font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    line-height: 24px;
 }
 
 .services {
-    margin: 50px 0;
+    margin-bottom: 50px;
     background-color: #ffbb02;
 }
 
@@ -352,7 +357,6 @@ body {
     width: 50%;
     display: flex;
     margin-bottom: 50px;
-    padding-left: 15px;
     padding-right: 15px;
 }
 
@@ -433,16 +437,27 @@ body {
     background-color: #000;
 }
 
+.task__wrap {
+    margin-bottom: 100px;
+}
+
 .task__button {
     border: none;
     outline: none;
     background-color: #fff;
     cursor: pointer;
     margin-left: 25px;
+    width: 25px;
+    height: 25px;
 }
 
 .task__title {
     margin-bottom: 35px;
+    font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 30px;
 }
 
 .task__list {
@@ -450,25 +465,36 @@ body {
 }
 
 .task__list-item {
-    font-family: 'PT Sans' Arial, Helvetica, sans-serif;
+    font-family: 'PT Sans', Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 24px;
     line-height: 24px;
     margin-bottom: 30px;
 }
 
-.task__list-container {
+.task__buttons, .task__input {
     display: flex;
 }
 
-.task__name {
-    width: 537px;
+.task__list-container {
+    display: inline-flex;
+}
+
+.task__buttons {
+    margin-left: 30px;
+    align-items: center;
+    justify-self: center;
+}
+
+.task__field {
+    width: 58.3333%;
     height: 40px;
-    padding: 15px;
-    margin-bottom: 100px;
+    padding: 7px 15px;
     box-shadow: inset 3px 3px 7px rgba(0, 0, 0, .35);
     border: 1px solid #535353;
     border-radius: 4px;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .footer {
