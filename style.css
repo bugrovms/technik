@@ -450,14 +450,21 @@ body {
 }
 
 .task__list-item {
-    font-weight: 700;
+    font-family: 'PT Sans';
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+.task__list-container {
+    display: flex;
 }
 
 .task__name {
     width: 537px;
     height: 40px;
     padding: 15px;
-    margin-top: 30px;
     margin-bottom: 100px;
     box-shadow: inset 3px 3px 7px rgba(0, 0, 0, .35);
     border: 1px solid #535353;
