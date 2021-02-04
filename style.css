@@ -515,6 +515,18 @@ body {
 
 .footer-nav {
     padding-left: 95px;
+    position: relative;
+}
+
+.footer-nav:before {
+    content: "";
+    border: solid #ffbb02;
+    border-width: 0 1px 1px 0;
+    padding: 3px;
+    transform: rotate(-45deg);
+    position: absolute;
+    left: 76px;
+    top: 7px;
 }
 
 .footer-nav__list {
@@ -522,17 +534,21 @@ body {
     flex-wrap: wrap;
 }
 
-.footer-nav__link {
-    color: #818180;
+.footer-nav__item {
     list-style-type: none;
     margin-right: 30px;
 }
 
-.footer-nav__link--active {
+.footer-nav__link {
+    text-decoration: none;
+    color: #818180;
+}
+
+.footer-nav__item--active {
     color: #d3d3d3;
 }
 
-.footer-nav__link:last-child {
+.footer-nav__item:last-child {
     margin: 0;
 }
 
