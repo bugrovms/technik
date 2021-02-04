@@ -126,13 +126,13 @@ body {
     transform: rotate(180deg);
 }
 
-.slider__radio{
+.slider-radio{
     position: absolute;
     top: 0;
     right: 15px;
 }
 
-.slider__radio-item{
+.slider-radio__item{
     display: block;
     width: 15px;
     height: 15px;
@@ -544,7 +544,7 @@ body {
     color: #818180;
 }
 
-.footer-nav__item--active {
+.footer-nav__link--active {
     color: #d3d3d3;
 }
 
