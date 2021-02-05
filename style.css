@@ -518,7 +518,7 @@ body {
     position: relative;
 }
 
-.footer-nav:before {
+.footer-nav__link--active:before {
     content: "";
     border: solid #ffbb02;
     border-width: 0 1px 1px 0;
